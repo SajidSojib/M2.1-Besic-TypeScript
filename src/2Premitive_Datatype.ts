@@ -1,10 +1,8 @@
 //* Js: string, number, boolean, null, undefined (Primitive)
-//* Js: object (non-primitive)
-//* Ts: never, unknown, any, void, object, array
 
-let name: string = 'John';
+let name: string = 'John';      // explicit type to string
 let age: number = 30;
-let isWorking = true;           //* explicit type to boolean
+let isWorking = true;           // implicit type to boolean
 let x: null = null;
 let y: undefined = undefined;
 
